@@ -1,0 +1,17 @@
+syntax = "proto3";
+option go_package ="./";
+
+service ProgrammerService {
+  rpc GetProgrammerInfo(Request) returns(Response);
+}
+
+message Request {
+  string name = 1;
+}
+
+message Response {
+  int32 uid = 1;
+  string username =2;
+  string job = 3;
+  repeated string  goodAt = 4;
+}
