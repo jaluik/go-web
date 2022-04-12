@@ -1,2 +1,2 @@
 # go-web
-Learn Go web books
+学习《Go Web编程实战派从入门到精通》时的代码练习
